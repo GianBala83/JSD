@@ -28,7 +28,7 @@ public class Program
             bool resp = int.TryParse(input, out op);
             while (!resp || (op > 5 || op < 1))
             {
-                Console.WriteLine("Resposta Inválido");
+                Console.WriteLine("Resposta Inválida");
                 input = Console.ReadLine();
                 resp = int.TryParse(input, out op);
             }
